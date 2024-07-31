@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+form {
+    width: 84vw;
+    padding: 20vw;
+    margin: 0 auto;
+}
+
+form input {
+    width: 100%;
+}
+
+input[type='date']::-webkit-datetime-edit {
+    color: rgb(42, 42, 43); /* Изменение цвета текста */
+    font-size: 14px; /* Изменение размера шрифта */
+    padding: 5px; /* Добавление отступов */
+  }
