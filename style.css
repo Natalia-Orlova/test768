@@ -10,18 +10,19 @@
 }
 
 form {
-    width: 84vw;
+    width: 100vw;
     padding: 20vw;
     margin: 0 auto;
 }
 
 form input {
     width: 100%;
-    color: rgb(42, 42, 43);
+    min-height: 2vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    font-size: 3.5vw;
 }
 
 input[type='date']::-webkit-datetime-edit {
-    color: rgb(42, 42, 43); /* Изменение цвета текста */
-    font-size: 14px; /* Изменение размера шрифта */
-    padding: 5px; /* Добавление отступов */
-  }
+    color: rgb(42, 42, 43);
+}
